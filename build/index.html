@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lilith Lamber | Junior Frontend Developer</title>
+
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&family=Roboto:wght@300;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header_nav">
+                <ul class="header_nav-list d-flex align-items-center justify-content-center justify-content-sm-end">
+                    <li class="header_nav-list_link">
+                        <a class="link" href="#skills">skills</a>
+                    </li>
+                    <li class="header_nav-list_link">
+                        <a class="link" href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="header_nav-list_link">
+                        <a class="link" href="#contact">contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="first_screen d-flex align-items-center" id="about">
+            <div class="container d-flex flex-wrap align-items-center">
+                <div class="first_screen-media col-10 col-sm-5">
+                    <picture>
+                        <source data-srcset="img/avatar.webp" srcset="img/avatar.webp" type="image/webp">
+                        <img class="lazy first_screen-media_avatar" data-src="img/avatar.png" src="img/avatar.png"
+                            alt="avatar">
+                    </picture>
+                    <picture>
+                        <source data-srcset="img/outline.webp" srcset="img/outline.webp" type="image/webp">
+                        <img class="lazy first_screen-media_outline" data-src="img/outline.png" src="img/outline.png"
+                            alt="outline">
+                    </picture>
+                </div>
+                <div class="first_screen-content col-12 col-sm-6">
+                    <div class="first_screen-content_header"></div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="skills_header section-header numbered">
+                    <span>My <span class="highlight">skills</span></span>
+                    <span class="number">02</span>
+                </h2>
+                <div class="row g-5">
+                    <div class="wrapper col-sm-6 col-xl-4 order-xl-1">
+                        <h3 class="skills_title d-flex align-items-center justify-content-between">
+                            <span class="highlight">hard</span> skills
+                            <span class="line"></span>
+                        </h3>
+                        <ul class="skills_list">
+                            <li class="list-item d-flex flex-wrap">
+                                HTML (<span class="highlight">2 years</span>)
+                                <span class="progressLine" id="html" data-value="80"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap">
+                                CSS (<span class="highlight">2 years</span>)
+                                <span class="progressLine" id="css" data-value="80"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap">
+                                JS (<span class="highlight">2 years</span>)
+                                <span class="progressLine" id="js" data-value="60"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap align-items-center">
+                                React.js
+                                <img class="hourglass" src="img/icons/hourglass.svg" alt="in proccess...">
+                                <span class="progressLine" id="react" data-value="10"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wrapper col-sm-6 col-xl-4 order-xl-3">
+                        <h3 class="skills_title d-flex align-items-center justify-content-between">
+                            <span class="highlight">english</span>level
+                            <span class="line"></span>
+                        </h3>
+                        <ul class="skills_list">
+                            <li class="list-item d-flex flex-wrap">
+                                Reading
+                                <span class="progressLine" id="reading" data-value="80"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap">
+                                Speaking
+                                <span class="progressLine" id="speaking" data-value="60"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap">
+                                Listening
+                                <span class="progressLine" id="listening" data-value="70"></span>
+                            </li>
+                            <li class="list-item d-flex flex-wrap">
+                                Writing
+                                <span class="progressLine" id="writing" data-value="60"></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="wrapper col-sm-6 col-xl-4 order-xl-2">
+                        <h3 class="skills_title d-flex align-items-center justify-content-between">
+                            <span class="highlight">soft</span>skills
+                            <span class="line"></span>
+                        </h3>
+                        <ul class="skills_list skills_list--soft">
+                            <li class="list-item" data-aos="fade-up">
+                                creativity
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="50">
+                                willingness to learn
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="100">
+                                emotional intelligence
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="150">
+                                high responsibility level
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="200">
+                                friendliness
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="250">
+                                attention to details
+                            </li>
+                            <li class="list-item" data-aos="fade-up" data-aos-delay="300">
+                                self-discipline
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul
+                    class="skills_icons d-flex flex-wrap align-items-center justify-content-center justify-content-lg-between">
+                    <li class="skills_icons-icon" data-aos="fade-up">
+                        <img class="lazy" data-src="img/icons/html.svg" src="img/icons/html.svg" alt="HTML 5">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="50">
+                        <img class="lazy" data-src="img/icons/bootstrap.svg" src="img/icons/bootstrap.svg"
+                            alt="Bootstrap">
+                    </li class="list-item">
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="100">
+                        <img class="lazy" data-src="img/icons/css.svg" src="img/icons/css.svg" alt="CSS 3">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="150">
+                        <img class="lazy" data-src="img/icons/sass.svg" src="img/icons/sass.svg" alt="Sass">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="200">
+                        <img class="lazy" data-src="img/icons/less.svg" src="img/icons/less.svg" alt="LESS">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="250">
+                        <img class="lazy" data-src="img/icons/javascript.svg" src="img/icons/javascript.svg"
+                            alt="JavaScript">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="300">
+                        <img class="lazy" data-src="img/icons/jquery.svg" src="img/icons/jquery.svg" alt="jQuery">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="350">
+                        <img class="lazy" data-src="img/icons/photoshop.svg" src="img/icons/photoshop.svg"
+                            alt="Adobe Photoshop">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="400">
+                        <img class="lazy" data-src="img/icons/xd.svg" src="img/icons/xd.svg" alt="Adobe XD">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="450">
+                        <img class="lazy" data-src="img/icons/figma.svg" src="img/icons/figma.svg" alt="Figma">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="500">
+                        <img class="lazy" data-src="img/icons/git.svg" src="img/icons/git.svg" alt="Git">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="550">
+                        <img class="lazy" data-src="img/icons/gulp.svg" src="img/icons/gulp.svg" alt="Gulp">
+                    </li>
+                    <li class="skills_icons-icon" data-aos="fade-up" data-aos-delay="600">
+                        <img class="lazy" data-src="img/icons/webpack.svg" src="img/icons/webpack.svg" alt="Webpack">
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio_header section-header numbered">
+                    <span>My <span class="highlight">portfolio</span></span>
+                    <span class="number">03</span>
+                </h2>
+                <ul class="portfolio_list d-flex"></ul>
+            </div>
+            <div class="portfolio_list-controls d-flex align-items-center justify-content-center">
+                <a class="slider-control slider-control--prev" href="javascript:void(0)">
+                    <i class="icon-arrow_left"></i>
+                </a>
+                <a class="slider-control slider-control--next" href="javascript:void(0)">
+                    <i class="icon-arrow_right"></i>
+                </a>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <picture>
+                <source srcset="img/hand--left.webp" srcset="img/hand--left.webp" type="image/webp">
+                <img class="lazy hand hand--left" data-src="img/hand--left.png" src="img/hand--left.png" alt="hand">
+            </picture>
+            <picture>
+                <source srcset="img/hand--right.webp" srcset="img/hand--right.webp" type="image/webp">
+                <img class="lazy hand hand--right" data-src="img/hand--right.png" src="img/hand--right.png" alt="hand">
+            </picture>
+            <div class="container d-flex flex-column flex-sm-row align-items-center justify-content-sm-center">
+                <div class="contact_header">
+                    <span class="contact_header-circle"></span>
+                    <h2 class="contact_header-title section-header">Get in <span class="highlight">touch</span></h2>
+                </div>
+                <ul class="contact_list">
+                    <li class="list-item">
+                        <i class="icon-location"></i>
+                        Nikolaev, UA
+                    </li>
+                    <li class="list-item">
+                        <i class="icon-mail"></i>
+                        <a class="link" href="mailto:winter.rituel@gmail.com">winter.rituel@gmail.com</a>
+                    </li>
+                    <li class="list-item">
+                        <i class="icon-call"></i>
+                        <a class="link" href="tel:+380681220109">+380681220109</a>
+                    </li>
+                    <li class="list-item">
+                        <i class="icon-telegram"></i>
+                        <a class="link" href="https://t.me/lilith6lamber" target="_blank"
+                            rel="noopener noreferrer">lilith6lamber</a>
+                    </li>
+                    <li class="list-item">
+                        <i class="icon-github"></i>
+                        <a class="link" href="https://github.com/lilith6lamber" target="_blank"
+                            rel="noopener noreferrer">lilith6lamber</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container d-flex flex-wrap justify-content-between align-items-center">
+            <p class="footer_copy">Designed and developed by <span class="highlight">Lilith Lamber</span>.
+            </p>
+            <a class="footer_scroll highlight" href="#about">Back to top <i class="icon-arrow_right"></i> </a>
+        </div>
+    </footer>
+    <script src="js/bundle.js"></script>
+</body>
+
+</html>

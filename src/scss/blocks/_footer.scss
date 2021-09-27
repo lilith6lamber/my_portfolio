@@ -1,0 +1,50 @@
+.footer {
+    padding: 15px 0;
+    background: rgba(#000, 0.7);
+    text-align: center;
+    &_copy {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(#fff, 0.2);
+        font-size: 12px;
+    }
+    &_scroll {
+        order: -1;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.3s ease-in-out;
+        i {
+            transform: rotate(-90deg);
+            display: inline-block;
+            font-size: 20px;
+        }
+        &:hover,
+        &:focus {
+            opacity: 0.5;
+        }
+    }
+    &_copy,
+    &_scroll {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 575.98px) {
+    .footer {
+        &_copy {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+        }
+        &_scroll {
+            order: unset;
+        }
+        &_copy,
+        &_scroll {
+            width: auto;
+        }
+    }
+}

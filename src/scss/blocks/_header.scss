@@ -1,0 +1,20 @@
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: rgba(#000, .5);
+    z-index: 10000;
+    backdrop-filter: blur(10px);
+    top: 0;
+    left: 0;
+    &_nav {
+        &-list {
+            &_link {
+                margin-right: 15px;
+                &:last-of-type {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}

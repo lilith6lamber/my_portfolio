@@ -1,0 +1,139 @@
+{
+    "projects": [
+        {
+            "img": "expice",
+            "name": "expice",
+            "date": "September 26, 2021",
+            "page": "https://lilith6lamber.github.io/expice/build/",
+            "source": "https://github.com/lilith6lamber/expice",
+            "description": "Responsive landing page for a restaurant aggregator. Developed using Bootstrap 5 (grid only), Sass, vanilla JavaScript (ES6 modules), Gulp + Webpack. Animated with AOS.",
+            "plugins": [
+                "Lazyload",
+                "Tiny Slider",
+                "SweetAlert2"
+            ]
+        },
+        {
+            "img": "techgear",
+            "name": "techgear",
+            "date": "September 20, 2021",
+            "page": "https://lilith6lamber.github.io/techgear/",
+            "source": "https://github.com/lilith6lamber/techgear",
+            "description": "Responsive landing page for a computer peripherals store. Developed using Bootstrap 5 (grid only), Sass, vanilla JavaScript (ES6 modules), Gulp + Webpack. Animated with AOS.",
+            "plugins": [
+                "Lazyload",
+                "Tiny Slider",
+                "SweetAlert2",
+                "Headroom"
+            ]
+        },
+        {
+            "img": "bestrong",
+            "name": "BeStrong Fitness",
+            "date": "September 19, 2021",
+            "page": "https://lilith6lamber.github.io/bestrong_fitness/build/",
+            "source": "https://github.com/lilith6lamber/bestrong_fitness",
+            "description": "Responsive landing page for a gym. Developed using Bootstrap 5 (grid only), Sass, vanilla JavaScript (ES6 modules), Gulp + Webpack. Animated with WOW.js.",
+            "plugins": [
+                "Lazyload",
+                "Tiny Slider",
+                "SweetAlert2",
+                "Headroom",
+                "Custom Select"
+            ]
+        },
+        {
+            "img": "ms",
+            "name": "Minimalistic Store",
+            "date": "September 09, 2021",
+            "page": "https://lilith6lamber.github.io/msproject_v.2/build/",
+            "source": "https://github.com/lilith6lamber/msproject_v.2",
+            "description": "Responsive multipage website for a minimalistic store. Developed using Bootstrap 5 (grid only), Sass, vanilla JavaScript (ES6 modules), Gulp + Webpack. Animated with WOW.js.",
+            "plugins": [
+                "axios",
+                "Lazyload",
+                "Tiny Slider",
+                "SweetAlert2",
+                "BaguetteBox",
+                "Custom Select",
+                {
+                    "plugin": "Leaflet",
+                    "addons": [
+                        "Fullscreen",
+                        "Locate Control",
+                        "Marker Cluster",
+                        "Color Filter"
+                    ]
+                }
+            ]
+        },
+        {
+            "img": "sos",
+            "name": "SOS",
+            "date": "August 22, 2021",
+            "page": "https://lilith6lamber.github.io/sos_game_landing/build/",
+            "source": "https://github.com/lilith6lamber/sos_game_landing",
+            "description": "Responsive landing page for SOS Battle Royale game. Developed using Bootstrap 5 (grid only), jQuery, Sass, Gulp. Animated using WOW.js.",
+            "plugins": [
+                "waypoints",
+                "Owl Carousel",
+                "Custom Select"
+            ]
+        },
+        {
+            "img": "data",
+            "name": "Data Processing",
+            "date": "August 19, 2021",
+            "page": "https://lilith6lamber.github.io/data_processing/build/",
+            "source": "https://github.com/lilith6lamber/data_processing",
+            "description": "Responsive landing page for a data processing company. Developed using Bootstrap 5 (grid only), Sass, Gulp. Animated using AOS.",
+            "plugins": [
+                "Pure Counter"
+            ]
+        },
+        {
+            "img": "chef",
+            "name": "Chef Restaurant",
+            "date": "November 14, 2020",
+            "page": "https://lilith6lamber.github.io/chef_restaurant/build/",
+            "source": "https://github.com/lilith6lamber/chef_restaurant",
+            "description": "Responsive landing page for a restaurant. Developed using Bootstrap 5 (grid only), Sass, vanilla JavaScript (ES6 modules), Gulp + Webpack. Animated with WOW.js. Updated on September 23, 2021.",
+            "plugins": [
+                "Mapbox GL",
+                "SweetAlert2",
+                "Tiny Slider",
+                "Lazyload"
+            ]
+        },
+        {
+            "img": "eclipse",
+            "name": "Eclipse",
+            "date": "August 30, 2020",
+            "page": "https://lilith6lamber.github.io/Eclipse/dist/",
+            "source": "https://github.com/lilith6lamber/Eclipse",
+            "description": "Responsive landing page for a translation company. Developed using LESS, jQuery, Gulp. Animated using AOS.",
+            "plugins": [
+                "lightBox",
+                "lightSlider"
+            ]
+        },
+        {
+            "img": "hotel",
+            "name": "Greek Hotel",
+            "date": "August 23, 2020",
+            "page": "https://lilith6lamber.github.io/Greek-Hotel/dist/",
+            "source": "https://github.com/lilith6lamber/Greek-Hotel",
+            "description": "Responsive landing page for a hotel. Developed using LESS, jQuery, Gulp. Animated using AOS.",
+            "plugins": [
+                "bxSlider",
+                "FormStyler",
+                {
+                    "plugin": "Leaflet",
+                    "addons": [
+                        "Color Filter"
+                    ]
+                }
+            ]
+        }
+    ]
+}

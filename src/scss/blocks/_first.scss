@@ -1,0 +1,82 @@
+.first_screen {
+    padding: 60px 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    &-media {
+        aspect-ratio: 1 / 1;
+        position: relative;
+        margin: 0 auto;
+        max-width: 500px;
+        max-height: 500px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: $gradient;
+        &_avatar,
+        &_outline {
+            display: block;
+            height: 100%;
+            object-fit: contain;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+        &_outline {
+            position: absolute;
+            bottom: 0;
+        }
+        &_avatar {
+            position: relative;
+            z-index: 2;
+        }
+    }
+    &-content {
+        margin-top: 30px;
+        &_header {
+            text-align: center;
+            .title {
+                font-weight: 400;
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+            .title,
+            .subtitle {
+                display: inline-block;
+                font-family: "Roboto Slab", serif;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 575.98px) {
+    .first_screen {
+        &-content {
+            margin-top: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 767.98px) {
+    .first_screen {
+        &-content {
+            &_header {
+                .title,
+                .subtitle {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 767.98px) {
+    .first_screen {
+        &-content {
+            &_header {
+                text-align: center;
+                .title,
+                .subtitle {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+}

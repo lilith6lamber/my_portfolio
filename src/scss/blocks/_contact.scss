@@ -1,0 +1,109 @@
+.contact {
+    padding: 60px 0;
+    position: relative;
+    .hand {
+        position: absolute;
+        top: 20%;
+        max-width: 520px;
+        width: 30%;
+        display: block;
+        z-index: 50;
+        &--left {
+            left: 0;
+        }
+        &--right {
+            right: 0;
+        }
+    }
+    &_header {
+        position: relative;
+        margin-bottom: 70px;
+        &-circle {
+            width: 100px;
+            height: 100px;
+            background: $gradient;
+            display: inline-block;
+            border-radius: 50%;
+            position: absolute;
+            left: -37%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &-title {
+            position: relative;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    }
+    &_list {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        .list-item {
+            margin-bottom: 10px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 575.98px) {
+    .contact {
+        .hand {
+            width: 20%;
+        }
+        &_header {
+            margin-bottom: 0;
+        }
+        &_list {
+            margin-left: 30px;
+            align-items: flex-start;
+        }
+    }
+}
+
+@media screen and (min-width: 767.98px) {
+    .contact {
+        .hand {
+            width: 25%;
+        }
+        &_list {
+            margin-left: 60px;
+        }
+    }
+}
+
+@media screen and (min-width: 991.98px) {
+    .contact {
+        padding: 120px 0;
+        .hand {
+            width: 30%;
+        }
+        &_header {
+            &-circle {
+                width: 150px;
+                height: 150px;
+                left: -50%;
+            }
+        }
+        &_list {
+            margin-left: 80px;
+        }
+    }
+}
+
+@media screen and (min-width: 1199.98px) {
+    .contact {
+        padding: 150px 0;
+        .hand {
+            width: 35%;
+        }
+        &_list {
+            margin-left: 60px;
+        }
+    }
+}
