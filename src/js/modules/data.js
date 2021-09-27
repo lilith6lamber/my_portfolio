@@ -111,7 +111,7 @@ export async function drawPortfolio(lazyload) {
         initSlider({
             container: '.portfolio_list',
             controlsContainer: '.portfolio_list-controls',
-            speed: 600,
+            speed: 300,
             autoHeight: true,
             responsive: {
                 576: {

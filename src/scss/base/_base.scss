@@ -35,6 +35,10 @@ body {
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 300;
+    visibility: hidden;
+    &.visible {
+        visibility: visible;
+    }
 }
 
 html,
@@ -63,35 +67,23 @@ a {
     }
 }
 
-#gallery {
-    position: absolute;
-    width: 100%;
+#loadingScreen {
+    background-color: #111;
+    background-image: url("../img/icons/loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    width: 100vw;
     height: 100vh;
-    overflow: hidden;
-}
-
-.test {
-    position: absolute;
-    width: 14rem;
-    height: 18rem;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.test li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    width: 14rem;
-    height: 18rem;
-    text-align: center;
-    line-height: 18rem;
-    font-size: 2rem;
-    font-family: sans-serif;
-    background-color: #9d7cce;
+    z-index: 500000;
     position: absolute;
     top: 0;
     left: 0;
-    border-radius: 0.8rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+    &.visible {
+        visibility: visible;
+        opacity: 1;
+    }
 }

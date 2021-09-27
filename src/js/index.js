@@ -1,5 +1,6 @@
 'use strict';
 
+import initLoader from "./modules/loader";
 import LazyLoad from "vanilla-lazyload";
 import AOS from 'aos';
 import { setAvatarAnimation, setContactAnimation } from "./modules/animation";
@@ -8,6 +9,8 @@ import initProgressbar from "./modules/progress";
 import { drawPortfolio } from './modules/data';
 
 
+initLoader(500);
+
 document.addEventListener('DOMContentLoaded', () => {
     const lazyload = new LazyLoad();
     AOS.init();
@@ -15,9 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
     initTypewriter();
     initProgressbar();
     drawPortfolio(lazyload);
-    window.addEventListener('load', () => {
+/*     window.addEventListener('load', () => {
         setContactAnimation();
-    })
+    }) */
 });
 
+window.addEventListener('load', () => {
+    setContactAnimation();
+})
 
